@@ -16,7 +16,7 @@
     "description": "React components written and maintained by the Broad Institute",
     "homepage": "https://github.com/broadinstitute/react-broad#readme",
     "license": "BSD-3-Clause",
-    "main": "index.js",
+    "main": "lib/index.js",
     "name": "react-broad",
     "repository": {
         "type": "git",
