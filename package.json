@@ -1,0 +1,31 @@
+{
+    "author": "Broad Institute",
+    "bugs": {
+        "url": "https://github.com/broadinstitute/react-broad/issues"
+    },
+    "dependencies": {
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.24.1"
+    },
+    "description": "React components written and maintained by the Broad Institute",
+    "homepage": "https://github.com/broadinstitute/react-broad#readme",
+    "license": "BSD-3-Clause",
+    "main": "index.js",
+    "name": "react-broad",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/broadinstitute/react-broad.git"
+    },
+    "scripts": {
+        "build": "babel lib -d build",
+        "build:watch": "babel lib -w -d build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "version": "1.0.0"
+}
