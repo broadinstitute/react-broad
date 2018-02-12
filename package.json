@@ -11,7 +11,9 @@
         "babel-cli": "^6.26.0",
         "babel-polyfill": "^6.26.0",
         "babel-preset-env": "^1.6.1",
+        "babel-preset-flow": "^6.23.0",
         "babel-preset-react": "^6.24.1",
+        "flow-bin": "^0.65.0",
         "jest": "^22.2.2"
     },
     "description": "React components written and maintained by the Broad Institute",
@@ -26,6 +28,8 @@
     "scripts": {
         "build": "babel lib -d build",
         "build:watch": "babel lib -w -d build",
+        "flow": "flow",
+        "prepublish": "npm run build",
         "test": "jest"
     },
     "version": "1.0.0"
