@@ -1,4 +1,4 @@
-deploy:
+after_success:
   - npm run storybook-to-ghpages -- --ci
 env:
   global:
