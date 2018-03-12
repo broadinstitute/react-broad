@@ -1,3 +1,8 @@
+deploy:
+  - npm run storybook-to-ghpages -- --ci
+env:
+  global:
+    secure: wMmLOM+o9D86GCz6BcBf7eqZaQFa02fY9L83Izav0QNLyrlLsZFDWkYC90bc0PIXfoSgiPmbDT74lPv5ZQWCOSmToHQfkVSW0cLz+3Z+/pMwpXIBLd8NYn5l9hOY9tWRV3NnRW6sKBiCbyuJ82BUNHdDFhJov74lcbBZjOtBBmtazIaUVdQ3KyViMmQhegWTFzqS/IOlB+hJ3YSndNT9hEhH7cIecO5g7yOGk6gPRMiJ4n746yj301Gb+ZanrhCfFulAOuQy+12+4IcbxQ7zcFqtNSX03mu6Fl0b4ExoALAbEOwIyxxYjxVpkrD07KMVUL2sFfOaQPA+2YBlVRwF5rnkpXf5opbKLZNI2LeSq23lzYlaO914QzB47teeSSbwvhbVWIugpLH+R9o2OZB+S0IrWfQ0yAwHvQ0ttWQoQfx8xP+rsaYQRmgeB6NzAzRde84t3FMr+5GhFuQ5c7HV7NGmIFdj/5TvGwIBYywA8GDz5Vr2vbYZHLv4YJEwuFM4mg4xxThNykM2xeet5wji3phZpDMFjiX1Wb3zeH3AmSmkW6UfpOwDPYRz3WbixQCtjM2BW4Nlbg40/Fak2HTZRbq6sCOqv13hXQQ7j2dJu8P88IwJSwuSaoEPYvqVxt9tMSm/wS9yFndvwi5nkO4sHjgA4UZF3bCrgQxS9LvOWio=
 node_js:
-  - "node"
+  - node
 language: node_js
