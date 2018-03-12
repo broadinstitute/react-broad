@@ -5,7 +5,7 @@ import Greeting from '../lib/Greeting';
 
 storiesOf('Greeting', module)
   .add('with text', () => (
-    <Greeting message="Greeting" />
+    <Greeting message="Hello, world!" />
   ))
   .add('with some emoji', () => (
   	<Greeting message="😀 😎 👍 💯" />
